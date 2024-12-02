@@ -1,3 +1,87 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+* {
+	font-family: 'Open Sans', sans-serif;
+    color: var(--acc3);
+}
+
+/* :root {
+	--prim1: #eae8ff;
+	--prim2: #d8d5db;
+	--acc1: #adacb5;
+	--acc2: #2d3142;
+	--acc3: #b0d7ff;
+} */
+
+:root {
+	--ocean-prim1: #0D1B2A;
+	--ocean-prim2: #1B263B;
+	--ocean-acc1: #415A77;
+	--ocean-acc2: #778DA9;
+	--ocean-acc3: #E0E1DD;
+
+	/* --prim1: #f7f7f2;
+	--prim2: #E4E6C3;
+	--acc1: #899878;
+	--acc2: #222725;
+	--acc3: #121113; */
+
+	--prim1: #3B82F6;
+	--prim2: #EF4444;
+	--acc1: #F59E0B;
+	--acc2: #F5F5F5;
+	--acc3: #212121;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+span {
+	color: var(--acc1);
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+.dropShadow {
+	filter: drop-shadow(-10.8923px 14.523px 35.0973px rgba(29, 140, 242, 0.2));
+}
+
+button, .button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--prim2);
+    cursor: pointer;
+    transform: border-color 0.2s;
+}
+
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+	border-color: var(--acc);
+}
+
+button:hover {
+	border-color: var(--acc2);
+}
+
+
+.accentBtn {
+	border-color: var(--acc3);
+	background: var(--prim1)
+}
+
+.accentBtnDark {
+	background: var(--prim2);
+	border-color: var(--acc3);
+}
+
+.accentBtn:hover {
+	border-color: var(--acc2);
+}
