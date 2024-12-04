@@ -4,7 +4,7 @@
 
 * {
 	font-family: 'Open Sans', sans-serif;
-    color: var(--acc3);
+	color: var(--acc3);
 }
 
 /* :root {
@@ -14,25 +14,41 @@
 	--acc2: #2d3142;
 	--acc3: #b0d7ff;
 } */
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
 
 :root {
-	--ocean-prim1: #0D1B2A;
-	--ocean-prim2: #1B263B;
-	--ocean-acc1: #415A77;
-	--ocean-acc2: #778DA9;
-	--ocean-acc3: #E0E1DD;
+	--ocean-prim1: #0d1b2a;
+	--ocean-prim2: #1b263b;
+	--ocean-acc1: #415a77;
+	--ocean-acc2: #778da9;
+	--ocean-acc3: #e0e1dd;
 
-	/* --prim1: #f7f7f2;
-	--prim2: #E4E6C3;
-	--acc1: #899878;
-	--acc2: #222725;
-	--acc3: #121113; */
+	/* Dark theme*/
+	--prim1: #212226;
+	--prim2: #3c3d40;
+	--acc1: #d7d7d9;
+	--acc2: #666a73;
+	--acc3: #9fa3a6;
 
-	--prim1: #3B82F6;
+	/* 
+	p1 #f7f7f2; 
+	p2  #E4E6C3; 
+	a1  #899878; 
+	*/
+
+	/* --prim1: #3B82F6;
 	--prim2: #EF4444;
 	--acc1: #F59E0B;
 	--acc2: #F5F5F5;
-	--acc3: #212121;
+	--acc3: #212121; */
 }
 
 html {
@@ -49,16 +65,17 @@ span {
 	filter: drop-shadow(-10.8923px 14.523px 35.0973px rgba(29, 140, 242, 0.2));
 }
 
-button, .button{
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: var(--prim2);
-    cursor: pointer;
-    transform: border-color 0.2s;
+button,
+.button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: var(--prim2);
+	cursor: pointer;
+	transform: border-color 0.2s;
 }
 
 button:focus,
@@ -71,10 +88,9 @@ button:hover {
 	border-color: var(--acc2);
 }
 
-
 .accentBtn {
 	border-color: var(--acc3);
-	background: var(--prim1)
+	background: var(--prim1);
 }
 
 .accentBtnDark {
@@ -84,4 +100,12 @@ button:hover {
 
 .accentBtn:hover {
 	border-color: var(--acc2);
+}
+
+.headphone {
+	transform: rotateY(180deg) rotate(10deg); /* skewY(12deg); */
+	perspective: 1000px;
+}
+.space {
+	font-family: 'Space Grotesk', sans-serif;
 }

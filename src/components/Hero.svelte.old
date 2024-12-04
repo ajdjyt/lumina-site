@@ -1,0 +1,9 @@
+<div class="flex hidden min-h-screen flex-1 flex-row items-center gap-10 pb-10 md:pb-14">
+		<div class="flex flex-row md:flex-col">
+			<div class="flex max-w-[12rem] flex-col items-center md:flex-row"></div>
+			
+		</div>
+		<div class="max-w-[15rem] md:min-w-[20rem] md:max-w-[20rem]">
+			<img src="/assets/hp.png" alt="Error" class="  headphone" />
+		</div>
+	</div>

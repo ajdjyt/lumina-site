@@ -7,14 +7,14 @@
 </script>
 
 <div class="flex items-center gap-4">
-	<button class={'accentBtn'} on:click={() => reroute('#contact')}>
+	<button class={'accentBtnDark min-w-[70dvw] md:min-w-[30dvw]'} on:click={() => reroute('#contact')}>
 		<a href="#contact">
 			<p class="text-base sm:text-lg md:text-xl">Contact Us</p>
 		</a>
 	</button>
-	<button class={'accentBtnDark'} on:click={() => reroute('#product')}>
-		<a href="#product">
-			<p class="text-base sm:text-lg md:text-xl">Get Started</p>
+	<!-- <button class={'accentBtnDark'} on:click={() => reroute('#aboutus')}>
+		<a href="#about us">
+			<p class="text-base sm:text-lg md:text-xl">About Us</p>
 		</a>
-	</button>
+	</button> -->
 </div>

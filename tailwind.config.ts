@@ -14,7 +14,10 @@ export default {
 				acc1: 'var(--acc1)',
 				acc2: 'var(--acc2)',
 				acc3: 'var(--acc3)'
-			}
+			},
+			fontFamily: {
+				spaceGrotesk: ["Space Grotesk", 'Papyrus'] 
+			  }
 		}
 	},
 	plugins: [typography, forms, containerQueries]

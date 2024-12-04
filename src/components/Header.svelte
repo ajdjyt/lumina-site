@@ -16,10 +16,10 @@
 	}
 </script>
 
-<header class="fixed left-0 top-0 z-50 flex w-screen flex-col bg-prim1">
+<header class="flex flex-col fixed  top-0 left-0 z-50 w-screen  bg-prim1">
 	<div class="item-center mx-auto flex w-full justify-between px-4 py-6">
 		<a class="flex flex-row items-center justify-items-center" href="/">
-			<div class="flex max-h-[10rem] max-w-[5rem] flex-col gap-4 bg-prim1 md:max-w-[7rem]">
+			<div class="flex max-h-[10rem] max-w-[5rem] flex-col gap-4 md:max-w-[7rem]">
 				<img class="h-[4rem]" src="assets/logo.png" alt={'Error loading icon'} />
 			</div>
 		</a>
@@ -38,7 +38,7 @@
 		<nav class="hidden items-center gap-4 md:flex lg:gap-6">
 			<a class="cursor-pointer duration-200 hover:text-acc1" href="#aboutus">About Us</a>
 			<a class="cursor-pointer duration-200 hover:text-acc1" href="#faqs">FAQs</a>
-			<a href="#product">
+			<a href="#contact">
 				<button class="specialBtnDark">Contact Us</button>
 			</a>
 		</nav>
