@@ -37,7 +37,7 @@
 		</button>
 		<nav class="hidden items-center gap-4 md:flex lg:gap-6">
 			<a class="cursor-pointer duration-200 hover:text-acc1" href="#aboutus">About Us</a>
-			<a class="cursor-pointer duration-200 hover:text-acc1" href="#faqs">FAQs</a>
+			<a class="cursor-pointer duration-200 hover:text-acc1" href="#services">Our Services</a>
 			<a href="#contact">
 				<button class="specialBtnDark">Contact Us</button>
 			</a>

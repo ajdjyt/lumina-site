@@ -7,18 +7,13 @@
 		Facebook: ''
 	};
 
-	let contacts = [
-		{
-			phone: '+91 9889009003',
-			name: 'Francisco Fernandes',
-			email: 'francisco@luminavoice.com'
-		},
-		{
-			phone: '+91 0000000000',
-			name: 'Khurshid',
-			email: 'luminavoicekf@gmail.com'
-		}
-	];
+	// let contacts = [
+	// 	{
+	// 		phone: '+91 9889009003',
+	// 		name: 'Francisco Fernandes',
+	// 		email: 'francisco@luminavoice.com'
+	// 	}
+	// ];
 </script>
 
 <footer>
@@ -37,7 +32,17 @@
 		>
 			<p class="text-base font-bold sm:text-lg">Contact Us</p>
 			<p>Vashi South</p>
-			{#each contacts as contact}
+			<div class="flex flex-col">
+				<div>
+					<i class="fa-regular fa-envelope"></i>
+					info@luminavoice.com
+				</div>
+				<div>
+					<i class="fa-brands fa-skype"></i>
+					live:.cid.7d28ad9520074ab7
+				</div>
+			</div>
+			<!-- {#each contacts as contact}
 				<div class="flex flex-col">
 					<div>
 						<i class="fa-solid fa-person"></i>
@@ -52,7 +57,7 @@
 						{contact.email}
 					</div>
 				</div>
-			{/each}
+			{/each} -->
 		</div>
 		<!-- <div class="flex flex-col gap-4">
 			<p class="text-base font-bold sm:text-lg">Submit a Query</p>
