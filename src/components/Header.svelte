@@ -30,7 +30,7 @@
 		</h1>
 		<button
 			aria-label="Open"
-			class="grid place-items-center md:hidden"
+			class="bg-prim1 grid place-items-center md:hidden"
 			onclick={() => (showModal = true)}
 		>
 			<i class="fa-solid fa-bars"></i>

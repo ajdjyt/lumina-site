@@ -22,7 +22,7 @@
 				>
 					<!-- <h1>Area 1</h1> -->
                     <div class="p-4 text-top text-left ">   
-                        <p class="space text-2xl md:text-4xl">Customer satisfaction (CSAT) improvement strategies</p>
+                        <p class="space text-xl md:text-4xl">Customer satisfaction (CSAT) improvement strategies</p>
                     </div>
 					<img
 						src="/assets/archer.png"
@@ -35,7 +35,7 @@
 				>
 					<!-- <h1>Area 2</h1> -->
 					<div class="p-4 text-top text-left ">   
-                        <p class="space text-2xl md:text-4xl">Warm transfer and appointment setting</p>
+                        <p class="space text-xl md:text-4xl">Warm transfer and appointment setting</p>
                     </div>
                     <img
 						src="/assets/handshake.png"
@@ -48,7 +48,7 @@
 				>
 					<!-- <h1>Area 3</h1> -->
                     <div class="p-4 text-top text-left ">   
-                        <p class="space text-2xl md:text-4xl">Secure Lines encrypted with VPNs</p>
+                        <p class="space text-xl md:text-4xl">Secure Lines encrypted with VPNs</p>
                     </div>
 					<img
 						src="/assets/vpn-shield.png"
@@ -61,7 +61,7 @@
 				>
 					<!-- <h1>Area 4</h1> -->
                     <div class="p-4 text-top text-left ">   
-                        <p class="space text-2xl md:text-4xl">Full compliance with industry standards for data encryption and security.</p>
+                        <p class="space text-xl md:text-4xl">Full compliance with industry standards for data encryption and security.</p>
                     </div>
 					<img
 						src="/assets/lock.png"

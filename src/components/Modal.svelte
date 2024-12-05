@@ -23,7 +23,7 @@
 	>
 		<div class="flex items-center justify-between gap-4 border-b pb-2">
 			{@render header?.()}
-			<button aria-label="Close" onclick={() => dialog.close()} class="border-none outline-none">
+			<button aria-label="Close" onclick={() => dialog.close()} class="bg-prim1 border-none outline-none">
 				<i class="fa-solid fa-xmark text-2xl"> </i>
 			</button>
 		</div>

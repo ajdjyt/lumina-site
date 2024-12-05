@@ -20,7 +20,7 @@
 
 	<!-- Area 2 -->
 	<div
-		class="row-start-3 flex flex-col items-center justify-center gap-4 rounded-lg bg-prim1 p-4 md:col-start-1 md:row-span-1"
+		class= "mx-auto row-start-3 flex flex-col items-center justify-center gap-4 rounded-lg bg-prim1 p-4 md:col-start-1 md:row-span-1"
 	>
 		<!-- <h2 class="text-xl font-bold">Area 2</h2> -->
 		<p class="text-justify">
