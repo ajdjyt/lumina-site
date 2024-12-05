@@ -18,7 +18,7 @@
 
 <footer>
 	<div
-		class="mx-auto flex w-full flex-col items-start justify-start gap-4 bg-prim1 px-10 py-16 text-base sm:grid-cols-2 md:flex-row md:justify-between md:px-5 md:py-10"
+		class="mx-auto flex w-full flex-col items-start justify-start gap-4 bg-prim1 px-10 pt-2 pb-16 text-base sm:grid-cols-2 md:flex-row md:justify-between md:px-5 md:py-10"
 	>
 		<div class="flex flex-col items-start md:col-span-2 md:items-start">
 			<h1 class="align-middle font-semibold">
