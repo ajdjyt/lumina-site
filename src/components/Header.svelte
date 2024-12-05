@@ -59,29 +59,29 @@
 		</h1>
 	{/snippet}
 	<button
-		onclick={() => reroute("#getstarted")}
+		onclick={() => reroute("#services")}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
-		<p class="duration-200 group-hover:pl-2">Get started</p>
+		<p class="duration-200 group-hover:pl-2">Our Services</p>
 	</button>
-	<button
+	<!-- <button
 		onclick={() => reroute('#faqs')}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
 		<p class="duration-200 group-hover:pl-2">FAQs</p>
-	</button>
+	</button> -->
 	<button
 		onclick={() => reroute('#aboutus')}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
 		<p class="duration-200 group-hover:pl-2">About Us</p>
 	</button>
-	<button
+	<!-- <button
 		onclick={() => reroute('#contact')}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
 		<p class="duration-200 group-hover:pl-2">Contact Us</p>
-	</button>
+	</button> -->
 	<div class="flex flex-col items-center justify-center">
 		<CTAs bind:modal={showModal}/>
 	</div>

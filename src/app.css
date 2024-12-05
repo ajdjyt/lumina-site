@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 	color: var(--acc3);
 }
 

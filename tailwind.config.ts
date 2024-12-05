@@ -16,7 +16,7 @@ export default {
 				acc3: 'var(--acc3)'
 			},
 			fontFamily: {
-				spaceGrotesk: ["Space Grotesk", 'Papyrus'] 
+				space: ["Space Grotesk", 'Papyrus'] 
 			  }
 		}
 	},

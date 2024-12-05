@@ -11,7 +11,7 @@
 		{
 			phone: '+91 9889009003',
 			name: 'Francisco Fernandes',
-			email: 'francis@luminavoice.com'
+			email: 'francisco@luminavoice.com'
 		},
 		{
 			phone: '+91 0000000000',
