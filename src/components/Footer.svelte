@@ -19,8 +19,6 @@
 			email: 'luminavoicekf@gmail.com'
 		}
 	];
-	export let success = false;
-	export let error = '';
 </script>
 
 <footer>
