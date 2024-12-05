@@ -3,7 +3,7 @@
 
 </script>
 <SectionWrapper id="aboutus">
-    <div class="flex flex-col scroll-mt-80 items-center justify-center pb-24">
+    <div class="flex flex-col scroll-mt-80 items-center justify-center pb-12">
         <h3 class="text-acc1 text-4xl sm:text-5xl md:text-6xl font-semibold text-center">
 				About Us
 		</h3>
