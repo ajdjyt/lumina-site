@@ -31,12 +31,18 @@
 	--ocean-acc2: #778da9;
 	--ocean-acc3: #e0e1dd;
 
-	/* Dark theme*/
-	--prim1: #212226;
+	/* Good Dark theme*/
+	/* --prim1: #212226;
 	--prim2: #3c3d40;
 	--acc1: #d7d7d9;
 	--acc2: #666a73;
-	--acc3: #9fa3a6;
+	--acc3: #9fa3a6; */
+
+	--prim1: #003366;
+	--prim2: #aedff7;
+	--acc1: #bfbfbf;
+	--acc2: #008080;
+	--acc3: #a4c639;
 
 	/* 
 	p1 #f7f7f2; 
