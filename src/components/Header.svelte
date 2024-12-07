@@ -20,7 +20,7 @@
 	<div class="item-center mx-auto flex w-full justify-between px-4 py-6">
 		<a class="flex flex-row items-center justify-items-center" href="/">
 			<div class="flex max-h-[10rem] max-w-[5rem] flex-col gap-4 md:max-w-[7rem]">
-				<img class="h-[4rem]" src="assets/logo.png" alt={'Error loading icon'} />
+				<img class="bg-prim2 rounded-lg h-[4rem]" src="assets/logo.png" alt={'Error loading icon'} />
 			</div>
 		</a>
 		<h1
@@ -48,8 +48,8 @@
 <Modal bind:this={modal} bind:showModal={showModal}>
 	{#snippet header()}
 		<a class="flex flex-row items-center justify-items-center" href="/">
-			<div class="flex max-h-[10rem] max-w-[5rem] flex-col gap-4 bg-prim1 md:max-w-[7rem]">
-				<img class="h-[4rem]" src="assets/logo.png" alt={'Error loading icon'} />
+			<div class=" flex max-h-[10rem] max-w-[5rem] flex-col gap-4 md:max-w-[7rem]">
+				<img class="rounded-lg bg-prim2 h-[4rem]" src="assets/logo.png" alt={'Error loading icon'} />
 			</div>
 		</a>
 		<h1
