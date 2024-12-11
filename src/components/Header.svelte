@@ -20,7 +20,7 @@
 	<div class="item-center mx-auto flex w-full justify-between px-4 py-6">
 		<a class="flex flex-row items-center justify-items-center" href="/">
 			<div class="flex max-h-[10rem] max-w-[5rem] flex-col gap-4 md:max-w-[7rem]">
-				<img class="bg-prim2 rounded-lg h-[4rem]" src="assets/logo.png" alt={'Error loading icon'} />
+				<img class="bg-white rounded-lg h-[4rem]" src="assets/logo.png" alt={'Error loading icon'} />
 			</div>
 		</a>
 		<h1

@@ -18,7 +18,7 @@
 				class="mx-auto flex max-w-[90dvw] md:max-w-[70dvw] flex-col gap-y-6 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-16"
 			>
 				<div
-					class="px-2 flex aspect-video flex-row items-center justify-center rounded-3xl bg-acc1 md:col-start-1 md:row-start-1"
+					class="px-2 flex aspect-video flex-row items-center justify-center rounded-3xl bg-prim2 md:col-start-1 md:row-start-1"
 				>
 					<!-- <h1>Area 1</h1> -->
                     <div class="p-4  text-top text-left ">   
@@ -31,7 +31,7 @@
 					/>
 				</div>
 				<div
-					class="px-2 flex flex-row items-center justify-center rounded-3xl bg-acc2 md:col-start-2 md:row-start-1"
+					class="px-2 flex flex-row items-center justify-center rounded-3xl bg-prim2 md:col-start-2 md:row-start-1"
 				>
 					<!-- <h1>Area 2</h1> -->
 					<div class="p-4  text-top text-left ">   
@@ -44,7 +44,7 @@
 					/>
 				</div>
 				<div
-					class="px-2 flex flex-row items-center justify-center rounded-3xl bg-acc2 md:col-start-1 md:row-start-2"
+					class="px-2 flex flex-row items-center justify-center rounded-3xl bg-prim2 md:col-start-1 md:row-start-2"
 				>
 					<!-- <h1>Area 3</h1> -->
                     <div class="p-4 text-top text-left ">   
@@ -57,7 +57,7 @@
 					/>
 				</div>
 				<div
-					class="px-2 flex flex-row items-center justify-center rounded-3xl bg-acc1 md:col-start-2 md:row-start-2"
+					class="px-2 flex flex-row items-center justify-center rounded-3xl bg-prim2 md:col-start-2 md:row-start-2"
 				>
 					<!-- <h1>Area 4</h1> -->
                     <div class="p-4 text-top text-left ">   
