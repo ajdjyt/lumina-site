@@ -62,26 +62,26 @@
 		onclick={() => reroute("#services")}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
-		<p class="duration-200 group-hover:pl-2">Our Services</p>
+		<p class="duration-200 group-hover:pl-2 text-prim1">Our Services</p>
 	</button>
-	<!-- <button
-		onclick={() => reroute('#faqs')}
-		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
-	>
-		<p class="duration-200 group-hover:pl-2">FAQs</p>
-	</button> -->
 	<button
 		onclick={() => reroute('#aboutus')}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
-		<p class="duration-200 group-hover:pl-2">About Us</p>
+		<p class="duration-200 group-hover:pl-2 text-prim1">About Us</p>
 	</button>
-	<!-- <button
-		onclick={() => reroute('#contact')}
+	<button
+		onclick={() => reroute('#values')}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
-		<p class="duration-200 group-hover:pl-2">Contact Us</p>
-	</button> -->
+		<p class="duration-200 group-hover:pl-2 text-prim1">Value Proposition</p>
+	</button>
+	<button
+		onclick={() => reroute('#careers')}
+		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
+	>
+		<p class="duration-200 group-hover:pl-2 text-prim1">Join Us</p>
+	</button>
 	<div class="flex flex-col items-center justify-center">
 		<CTAs bind:modal={showModal}/>
 	</div>

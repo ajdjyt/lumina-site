@@ -31,7 +31,7 @@
 			class="flex flex-col items-start justify-center gap-4 md:items-start md:justify-normal"
 		>
 			<p class="text-base font-bold sm:text-lg">Contact Us</p>
-			<p>Vashi South</p>
+			<p>TechnoCity Center <br>Mahape-Navi Mumbai</p>
 			<div class="flex flex-col">
 				<div>
 					<i class="fa-regular fa-envelope"></i>

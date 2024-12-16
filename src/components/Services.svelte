@@ -15,10 +15,10 @@
 		</div>
 		<div class="place-items-center text-[#f5f5f5]">
 			<div
-				class="mx-auto flex max-w-[90dvw] flex-col gap-y-6 md:grid md:max-w-[70dvw] md:grid-cols-2 md:grid-rows-2 md:gap-16"
+				class="mx-auto flex max-w-[90dvw] flex-col gap-y-6 md:grid md:max-w-[70dvw] md:grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 md:gap-16"
 			>
 				<div
-					class="flex aspect-video flex-row items-center justify-center rounded-3xl bg-prim2 px-2 sm:aspect-auto md:col-start-1 md:row-start-1"
+					class="flex aspect-video flex-row items-center justify-center shadow-lg rounded-3xl bg-prim2 px-2 sm:aspect-auto lg:col-start-1 lg:row-start-1"
 				>
 					<!-- <h1>Area 1</h1> -->
 					<div class="text-top p-4 text-left">
@@ -33,7 +33,7 @@
 					/>
 				</div>
 				<div
-					class="flex flex-row items-center justify-center rounded-3xl bg-prim2 px-2 md:col-start-2 md:row-start-1"
+					class="flex flex-row items-center justify-center shadow-lg rounded-3xl bg-prim2 px-2 lg:col-start-2 lg:row-start-1"
 				>
 					<!-- <h1>Area 2</h1> -->
 					<div class="text-top p-4 text-left">
@@ -46,7 +46,7 @@
 					/>
 				</div>
 				<div
-					class="flex flex-row items-center justify-center rounded-3xl bg-prim2 px-2 md:col-start-1 md:row-start-2"
+					class="flex flex-row items-center justify-center shadow-lg rounded-3xl bg-prim2 px-2 lg:col-start-1 lg:row-start-2"
 				>
 					<!-- <h1>Area 3</h1> -->
 					<div class="text-top p-4 text-left">
@@ -59,7 +59,7 @@
 					/>
 				</div>
 				<div
-					class="flex flex-row items-center justify-center rounded-3xl bg-prim2 px-2 md:col-start-2 md:row-start-2"
+					class="flex flex-row items-center justify-center shadow-lg rounded-3xl bg-prim2 px-2 lg:col-start-2 lg:row-start-2"
 				>
 					<!-- <h1>Area 4</h1> -->
 					<div class="text-top p-4 text-left">
