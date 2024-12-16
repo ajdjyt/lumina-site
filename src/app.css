@@ -4,7 +4,8 @@
 
 * {
 	font-family: 'Space Grotesk', sans-serif;
-	color: var(--acc3);
+	/* color: #1e1e1e; */
+	/* color: var(--acc3); */
 }
 
 /* :root {
@@ -38,11 +39,19 @@
 	--acc2: #666a73;
 	--acc3: #9fa3a6; */
 
-	--prim1: #003366;
+	/*Mentora Theme*/
+	--prim1: #F5F5F5;
+	--prim2: #181b34;
+	--acc1: #b56f0d;
+	--acc2: #b56f0d;
+	--acc3: #1C65C6;
+
+	/*External Good*/
+	/* --prim1: #003366;
 	--prim2: #008080;
 	--acc1: #bfbfbf;
 	--acc2: #aedff7;
-	--acc3: #a4c639;
+	--acc3: #a4c639; */
 
 	/* 
 	p1 #f7f7f2; 
@@ -102,6 +111,7 @@ button:hover {
 .accentBtnDark {
 	background: var(--prim2);
 	border-color: var(--acc3);
+	color: var(--prim1);
 }
 
 .accentBtn:hover {

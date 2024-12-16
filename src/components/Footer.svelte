@@ -22,7 +22,7 @@
 	>
 		<div class="flex flex-col items-start md:col-span-2 md:items-start">
 			<h1 class="align-middle font-semibold">
-				<img class="rounded-lg bg-white mb-4 max-w-[5rem] md:max-w-[7rem]" src="assets/logo.png" alt="" />
+				<img class="rounded-lg mb-4 max-w-[5rem] md:max-w-[7rem]" src="assets/logo.png" alt="" />
 			</h1>
 			<p class="text-xs md:text-xl">©2024 Lumina Voice.</p>
 		</div>

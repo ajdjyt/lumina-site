@@ -37,7 +37,7 @@
 	>
 		<!-- <h2 class="text-xl font-bold">Area 3</h2> -->
 		<img
-			src="/assets/hp.png"
+			src="/assets/hp-indigo.png"
 			alt="Error"
 			class="headphone w-[12rem] max-w-full md:min-w-[40dvw] md:max-w-full"
 		/>
