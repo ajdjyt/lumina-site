@@ -39,7 +39,7 @@
 		<img
 			src="/assets/hp-indigo.png"
 			alt="Error"
-			class="headphone w-[12rem] max-w-full md:min-w-[40dvw] md:max-w-full"
+			class="headphone w-[12rem] min-w-[30dvh] max-w-full md:min-w-[40dvw] md:max-w-full"
 		/>
 	</div>
 </div>
