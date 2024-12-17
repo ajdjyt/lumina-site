@@ -38,6 +38,8 @@
 		<nav class="hidden items-center gap-4 md:flex lg:gap-6">
 			<a class="cursor-pointer duration-200 hover:text-acc1" href="#aboutus">About Us</a>
 			<a class="cursor-pointer duration-200 hover:text-acc1" href="#services">Our Services</a>
+			<a class="cursor-pointer duration-200 hover:text-acc1" href="#values">Value Proposition</a>
+			<a class="cursor-pointer duration-200 hover:text-acc1" href="#careers">Careers</a>
 			<a href="#contact">
 				<button class="specialBtnDark text-[#f5f5f5]">Contact Us</button>
 			</a>
@@ -63,7 +65,7 @@
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
 		<p class="duration-200 group-hover:pl-2 text-prim1">Our Services</p>
-	</button>
+	</button>	
 	<button
 		onclick={() => reroute('#aboutus')}
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
@@ -77,10 +79,10 @@
 		<p class="duration-200 group-hover:pl-2 text-prim1">Value Proposition</p>
 	</button>
 	<button
-		onclick={() => reroute('#careers')}
+		onclick={() => reroute('#careers')}	
 		class="group cursor-pointer border-none p-2 text-left outline-none duration-200"
 	>
-		<p class="duration-200 group-hover:pl-2 text-prim1">Join Us</p>
+		<p class="duration-200 group-hover:pl-2 text-prim1">Careers</p>
 	</button>
 	<div class="flex flex-col items-center justify-center">
 		<CTAs bind:modal={showModal}/>
